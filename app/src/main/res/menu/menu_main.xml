@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/connect_urband"
+        android:title="Conectar Urband"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/close_urband"
+        android:title="Desconectar Urband"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/close_session"
+        android:title="Cerrar sesión"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource"/>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/findingDialaogTitle"
+            android:id="@+id/urband_device_alert_text_title" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/bkng_urband"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_horizontal|top" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:id="@+id/urband_device_alert_progress"
+                android:indeterminate="false"
+                android:layout_gravity="center_horizontal|top"
+                android:padding="40dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

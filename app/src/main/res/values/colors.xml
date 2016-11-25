@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="darkLightPrimary">#40000000</color>
+
+    <color name="blueLightPrimary">#02ffff</color>
+    <color name="blueDarkPrimary">#273239</color>
+
+    <color name="redPrimary">#ff0202</color>
+    <color name="redSecundary">#cc0202</color>
+    <color name="redDarkPrimary">#a64747</color>
+
+    <color name="bluePrimary">#2b87de</color>
+    <color name="blueSecundary">#1c7176</color>
+
+    <color name="blueSkyPrimary">#7cebde</color>
+    <color name="blueSkySecundary">#5bb7ac</color>
+
+    <color name="greenPrimary">#4cd933</color>
+    <color name="greenSecundary">#45ab34</color>
+
+    <color name="bkng_walkthrough_green">#85ba6f</color>
+    <color name="bkng_walkthrough_purple">#7e57e6</color>
+    <color name="bkng_walkthrough_bluesky">#02bbd1</color>
+    <color name="bkng_walkthrough_lemon">#c5d853</color>
+
+    <color name="gris_obscuro">#7B7B7A</color>
+    <color name="gris_claro">#F2F2F2</color>
+    <color name="azul_claro">#66BEE1</color>
+    <color name="verde_claro">#8EBE2C</color>
+    <color name="negro">#000</color>
+</resources>

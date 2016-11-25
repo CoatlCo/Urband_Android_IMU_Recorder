@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_scan"
+        android:title="Escanear dispositivos"
+        android:orderInCategory="98"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/menu_stop"
+        android:title="Detener escaneo"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource" />
+</menu>
